@@ -39,7 +39,7 @@ const MarketingPage = () => {
 
         <Button className="mt-6" size='lg' asChild>
             <Link 
-                href="/signup"
+                href="/sign-up"
             >
                 Get TaskFlow for free
             </Link>

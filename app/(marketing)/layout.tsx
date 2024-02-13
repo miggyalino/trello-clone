@@ -1,4 +1,6 @@
 import React from 'react'
+import Navbar from './_components/Navbar';
+import Footer from './_components/Footer';
 
 const MarketingLayout = ({
     children
@@ -7,11 +9,11 @@ const MarketingLayout = ({
 }) => {
   return (
     <div className='h-screen bg-slate-100'>
-        {/* Navbar */}
+        <Navbar />
         <main className='pt-40 pb-20 bg-slate-100'>
             {children}
         </main>
-        {/* Footer */}
+        <Footer />
     </div>
   )
 }
