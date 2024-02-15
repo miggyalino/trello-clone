@@ -1,6 +1,7 @@
-import { OrganizationList } from "@clerk/nextjs"
+import { OrganizationList} from "@clerk/nextjs"
 
 const CreateOrganizationList = () => {
+  
   return (
     <OrganizationList 
         hidePersonal
